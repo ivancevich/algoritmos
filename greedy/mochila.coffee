@@ -6,6 +6,7 @@
 ###
 mochila = (elementos, capacidad) ->
   solucion = []
+  elementos = elementos.slice() # clono los elementos
   elementos = ordenar_por_beneficio(elementos)
   while elementos.length > 0 and capacidad > 0
     if elementos[0].peso <= capacidad
