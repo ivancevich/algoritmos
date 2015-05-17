@@ -1,3 +1,9 @@
+###*
+ * Cambio
+ * @param {number[]} Denominaciones de monedas
+ * @param {number} Monto a devolver
+ * @return {number} Cantidad de monedas necesarias
+###
 cambio = (monedas, monto) ->
   cantidad_monedas = 0
   indice = 0
