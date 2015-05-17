@@ -8,7 +8,7 @@ arreglo_desordenado = [ 4 , 1 , 5 , 6 , 3 , 2 ]
 describe 'divide y conquista', ->
   describe 'merge sort', ->
 
-    it 'debe ordenar el arreglo ordenado', ->
+    it 'no debe desordenar el arreglo ordenado', ->
       resultado = merge_sort(arreglo_ordenado)
       es_igual = arreglo_es_igual(resultado, arreglo_ordenado)
       expect(es_igual).to.be.true
