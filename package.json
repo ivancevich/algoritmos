@@ -1,0 +1,24 @@
+{
+  "name": "algoritmos",
+  "version": "1.0.0",
+  "description": "Algoritmos utilizando las técnicas \"Divide y Conquista\", \"Greedy\", \"Programación Dinámica\" y \"Backtracking\"",
+  "scripts": {
+    "test": "mocha $(find . -name '*.spec.coffee')"
+  },
+  "author": {
+    "name": "JC Ivancevich",
+    "email": "jc.ivancevich@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivancevich/algoritmos.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.0"
+  }
+}
