@@ -1,6 +1,8 @@
 # Algoritmos
 > Algoritmos utilizando las técnicas "Divide y Conquista", "Greedy", "Programación Dinámica" y "Backtracking"
 
+[![Build Status](https://travis-ci.org/ivancevich/algoritmos.svg?branch=master)](https://travis-ci.org/ivancevich/algoritmos)
+
 ### Por qué este repositorio?
 El fin de este repositorio es compartir los conocimientos obtenidos en la cátedra universitaria "Programación 3" de la Facultad de Ingeniería y Ciencias Exactas de la [UADE](http://www.uade.edu.ar/) y así facilitar el estudio de los algoritmos enseñados.
 
