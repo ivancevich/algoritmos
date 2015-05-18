@@ -78,9 +78,4 @@ describe 'greedy', ->
       ]
       resultado = kruskal(grafo)
       expect(resultado.length).to.be.equal(arbol_esperado.length)
-      arbol_esperado.forEach(
-        (arista, indice) ->
-          expect(resultado[indice].origen).to.be.equal(arista.origen)
-          expect(resultado[indice].destino).to.be.equal(arista.destino)
-          expect(resultado[indice].peso).to.be.equal(arista.peso)
-      )
+      expect(resultado).to.deep.equal(arbol_esperado)
