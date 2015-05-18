@@ -3,7 +3,7 @@ ConjuntoDisjunto = require('../estructuras-de-datos/conjunto-disjunto')
 ###*
  * Kruskal
  * @param {object} Grafo
- * @return {object} Árbol de recubrimiento mínimo
+ * @return {object[]} Árbol de recubrimiento mínimo (arreglo de aristas)
 ###
 kruskal = (grafo) ->
   vertices = grafo.vertices.slice() # clono los vertices
